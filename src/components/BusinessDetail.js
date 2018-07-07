@@ -10,14 +10,14 @@ class BusinessDetail extends Component {
       headerContentStyle: {
         flexDirection: 'column',
         justifyContent: 'flex-start',
-        flex: 1
+        flex: 1,
       },
       headerTextStyle: {
         fontSize: 18,
         fontWeight: 'bold',
         color: 'red',
         marginTop: 5,
-        marginBottom: 5,
+        marginBottom: 5
       },
       headerCategoryStyle: {
         color: 'gray',
@@ -25,8 +25,9 @@ class BusinessDetail extends Component {
       },
       headerDistanceStyle: {
         color: 'gray',
-        width: 75,
+        // width: 75,
         textAlign: 'right',
+        marginLeft: 10
       },
       thumbnailStyle: {
         height: 75,
@@ -35,8 +36,7 @@ class BusinessDetail extends Component {
       thumbnailContainerStyle: {
         justifyContent: 'center',
         alignItems: 'center',
-        marginLeft: 10,
-        marginRight: 10,
+        marginRight: 10
       }
     };
 
@@ -76,7 +76,7 @@ class BusinessDetail extends Component {
               {categories.map((category, i) => renderCategory(category, i))}
             </Text>
           </View>
-          <View style={headerContentStyle}>
+          <View>
             <Text style={headerDistanceStyle}>0.3 mi</Text>
           </View>
         </CardSection>

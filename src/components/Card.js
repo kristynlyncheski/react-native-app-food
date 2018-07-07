@@ -19,9 +19,6 @@ const styles = {
     borderBottomWidth: 1,
     backgroundColor: '#fff',
     elevation: 1,
-    // marginLeft: 5,
-    // marginRight: 5,
-    marginTop: 5
   }
 };
 
